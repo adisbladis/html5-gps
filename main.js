@@ -85,7 +85,7 @@ var main = {
 	"updateMarker": false
     },
     init: function() {
-	$("div#map").css("height", window.innerHeight-$("div#footer").height());
+	$("div#map").css("height", window.innerHeight-$("footer").height());
 	if(typeof(navigator) === "undefined" || typeof(navigator.geolocation) === "undefined") {
 	    alert("Your browser does not support the HTML5 geolocation API, super lame");
 	    return;
